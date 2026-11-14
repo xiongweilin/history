@@ -18,8 +18,10 @@
       "01-人类共同起点.md",
       "02-六大早期文明区域.md",
       "03-基督教与罗马帝国.md",
-      "04-跨国共同历史.md"
-    ]
+      "04-跨国共同历史.md",
+      "05-加勒比海与大西洋奴隶制.md"
+    ],
+    "knowledge_reviews": "data/knowledge_reviews.json"
   },
   "last_completed": {
     "rank": 8,
