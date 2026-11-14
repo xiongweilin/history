@@ -129,7 +129,7 @@ def main() -> int:
         if decision == "added_or_updated":
             check(bool(files), f"knowledge review {i + 1}: changed shared files must be listed")
         for shared in files:
-            check(isinstance(shared, str) and bool(re.fullmatch(r"[^/\\\\]+\\.md", shared)),
+            check(isinstance(shared, str) and shared.endswith(".md") and Path(shared).name == shared and chr(92) not in shared,
                   f"knowledge review {i + 1}: shared file must be a root Markdown file: {shared}")
             if isinstance(shared, str):
                 check((ROOT / shared).is_file(),
