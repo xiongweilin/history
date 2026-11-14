@@ -16,7 +16,7 @@
 
 首都**马累**高度密集，附近胡鲁莱（Hulhulé）有国际机场，胡鲁马累（Hulhumalé）通过填海开发为住宅和公共设施区，蒂拉富士（Thilafushi）则承担部分工业和废弃物相关功能。南端阿杜环礁（Addu）和中部、北部岛群有自己的贸易、方言与政治经验，不能把全国当成马累的一条街。
 
-**人口统计别混淆**：2022年人口普查统计全国常住人口为**515,132人**，包含**382,639名马尔代夫公民**和**132,493名外国常住居民**；约41%人口住在大马累。它是2022年普查数据，绝不是2026年即时人口。[马尔代夫2022年官方人口普查信息图](https://census.gov.mv/2022/wp-content/uploads/2024/02/Population-Census-2022-Infographic.pdf)。
+**人口统计别混淆**：2022年人口普查统计全国常住人口为**515,132人**，包含**382,639名马尔代夫公民**和**132,493名外国常住居民**；约41%人口住在大马累。它是2022年普查数据，绝不是2026年即时人口。[马尔代夫2022年官方人口普查信息图](https://statisticsmaldives.gov.mv/census-2022-results-summary/)。
 
 项目约300平方公里的面积数字是既定总面积排名口径，不能把全国的宽阔海洋权益区加进去。生存与治理恰恰长期依赖海洋通道，跨岛医疗、教育、运送食品、燃油与货物的成本不可忽略。
 
@@ -244,7 +244,7 @@
 16. [马尔代夫总统府（2009），水下内阁官方通稿](https://presidency.gov.mv/Press/Article/633)。
 17. [IMF（2005），海啸紧急援助文件](https://www.elibrary.imf.org/view/journals/002/2005/145/article-A001-en.xml)：82人死亡、26人失踪的当时口径。
 18. [NASA Earth Observatory（2021），《Preparing for Rising Seas in the Maldives》](https://science.nasa.gov/earth/earth-observatory/preparing-for-rising-seas-in-the-maldives-148158/)：胡鲁马累人工岛。
-19. [马尔代夫官方2022年人口普查信息图](https://census.gov.mv/2022/wp-content/uploads/2024/02/Population-Census-2022-Infographic.pdf)：人口口径。
+19. [马尔代夫官方2022年人口普查信息图](https://statisticsmaldives.gov.mv/census-2022-results-summary/)：人口口径。
 20. [马尔代夫货币当局旅游统计数据库](https://database.mma.gov.mv/viya/series/104)：2025游客人次。
 21. [世界银行《Maldives Development Update 2026》](https://www.worldbank.org/en/country/maldives/publication/maldives-development-update-2026)：债务与2026经济预测。
 22. [IMF 2026-06-16第四条磋商声明](https://www.imf.org/en/news/articles/2026/06/16/pr-26208-maldives-imf-staff-completes-2026-article-iv-mission)：宏观风险。
