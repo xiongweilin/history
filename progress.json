@@ -4,9 +4,9 @@
   "repository": "https://github.com/xiongweilin/history",
   "updated_at": "2026-11-14",
   "total": 195,
-  "completed_count": 8,
-  "last_completed_rank": 8,
-  "next_rank": 9,
+  "completed_count": 9,
+  "last_completed_rank": 9,
+  "next_rank": 10,
   "mode": "one_country_per_request",
   "source_of_truth": {
     "sequence": "data/countries.json",
@@ -19,21 +19,22 @@
       "02-六大早期文明区域.md",
       "03-基督教与罗马帝国.md",
       "04-跨国共同历史.md",
-      "05-加勒比海与大西洋奴隶制.md"
+      "05-加勒比海与大西洋奴隶制.md",
+      "06-印度洋季风贸易与环礁社会.md"
     ],
     "knowledge_reviews": "data/knowledge_reviews.json"
   },
   "last_completed": {
-    "rank": 8,
-    "name_zh": "圣基茨和尼维斯",
-    "name_en": "Saint Kitts and Nevis",
-    "path": "countries/008-saint-kitts-and-nevis/README.md"
-  },
-  "next": {
     "rank": 9,
     "name_zh": "马尔代夫",
     "name_en": "Maldives",
-    "slug": "maldives",
+    "path": "countries/009-maldives/README.md"
+  },
+  "next": {
+    "rank": 10,
+    "name_zh": "马耳他",
+    "name_en": "Malta",
+    "slug": "malta",
     "status": "pending",
     "path": null
   },
@@ -77,10 +78,15 @@
       "rank": 8,
       "path": "countries/008-saint-kitts-and-nevis/README.md",
       "provenance": "newly_researched_chapter"
+    },
+    {
+      "rank": 9,
+      "path": "countries/009-maldives/README.md",
+      "provenance": "newly_researched_chapter"
     }
   ],
   "notes": [
-    "第008国已于2026-11-14完成研究、讲解并归档；下一国是第009国马尔代夫。",
+    "第009国马尔代夫已于2026-11-14完成研究、共享知识复盘与归档；下一国是第010国马耳他。",
     "第001—007篇是此前长篇对话的结构化整理稿，不是原对话逐字导出；第008篇为2026-11-14新研究撰写的国家章节。",
     "完成状态以已提交并重新校验的国家正文为准；不能仅因聊天回答已发送而将文件标为完成。",
     "新会话必须获得仓库访问入口且有合适的外部工具权限；仓库文件不能自动触发聊天或保证GitHub写入权限。"

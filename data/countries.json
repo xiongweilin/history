@@ -99,8 +99,8 @@
       "name_en": "Maldives",
       "area_km2": 300,
       "slug": "maldives",
-      "status": "pending",
-      "path": null
+      "status": "published",
+      "path": "countries/009-maldives/README.md"
     },
     {
       "rank": 10,
