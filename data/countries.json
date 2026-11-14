@@ -139,8 +139,8 @@
       "name_en": "Barbados",
       "area_km2": 431,
       "slug": "barbados",
-      "status": "pending",
-      "path": null
+      "status": "published",
+      "path": "countries/013-barbados/README.md"
     },
     {
       "rank": 14,

@@ -6,7 +6,7 @@
 >
 > **195范围：** 193个联合国会员国＋教廷／梵蒂冈＋巴勒斯坦国；不把库克群岛、纽埃或其他不属于这套195口径的政治实体另增为独立章节；并非否认其政治和文化特殊性。
 >
-> **状态：** 001—012已归档；013起尚未讲解。仅在经过真实讲解、研究与GitHub提交后，才可把状态变更为“完成”。
+> **状态：** 001—013已归档；014起尚未讲解。仅在经过真实讲解、研究与GitHub提交后，才可把状态变更为“完成”。
 
 | 顺序 | 国家中文名称 | English name | 面积 km² | 状态 |
 |---:|---|---|---:|---|
@@ -22,7 +22,7 @@
 | 010 | [马耳他](countries/010-malta/README.md) | Malta | 315 | 已完成 |
 | 011 | [格林纳达](countries/011-grenada/README.md) | Grenada | 345 | 已完成 |
 | 012 | [圣文森特和格林纳丁斯](countries/012-saint-vincent-and-the-grenadines/README.md) | Saint Vincent and the Grenadines | 389 | 已完成 |
-| 013 | 巴巴多斯 | Barbados | 431 | 未开始 |
+| 013 | [巴巴多斯](countries/013-barbados/README.md) | Barbados | 431 | 已完成 |
 | 014 | 安提瓜和巴布达 | Antigua and Barbuda | 442 | 未开始 |
 | 015 | 塞舌尔 | Seychelles | 457 | 未开始 |
 | 016 | 帕劳 | Palau | 459 | 未开始 |
