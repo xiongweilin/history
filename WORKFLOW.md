@@ -84,13 +84,13 @@
 - 使用GitHub文件SHA或提交基线防止覆盖其他人的改动；遇到冲突重新读取文件，禁止强推。
 - 不采用没有核验的盲目并行写入。
 
-## 七、示例（不代表第011国已经开始）
+## 七、示例（不代表第012国已经开始）
 
-当未来要发布第011国时，预计：
+当未来要发布第012国时，预计：
 
-`countries/011-grenada/README.md`
+`countries/012-saint-vincent-and-the-grenadines/README.md`
 
-在文件真正提交成功前，`data/countries.json` 中第011国保持 pending，`path` 保持 null，`progress.json.next_rank` 仍为11；不得通过先创建空标题或占位文件来“打卡完成”。
+在文件真正提交成功前，`data/countries.json` 中第012国保持 pending，`path` 保持 null，`progress.json.next_rank` 仍为12；不得通过先创建空标题或占位文件来“打卡完成”。
 
 ## 八、发布后必须能回答的问题
 
@@ -111,7 +111,7 @@
 
 第008国[圣基茨和尼维斯](countries/008-saint-kitts-and-nevis/README.md)带来了跨国可复用内容：加勒比原住民文化、种植园经济、跨大西洋奴隶贸易、英国1807年禁止贸易、1834年法律解放及1838年学徒制终结。共同机制已经提炼至根目录[《加勒比海与大西洋奴隶制》](05-加勒比海与大西洋奴隶制.md)，并登记在 `data/knowledge_reviews.json`。
 
-第009国[马尔代夫](countries/009-maldives/README.md)新增了[印度洋季风贸易与环礁社会](06-印度洋季风贸易与环礁社会.md)共享专题。第010国[马耳他](countries/010-malta/README.md)新增了[地中海海权与跨文明接触](07-地中海海权与跨文明接触.md)共享专题；均已登记在 `data/knowledge_reviews.json`。后续巴巴多斯、牙买加、海地等国家应复用相关共同前置解释，同时单独核验各地制度和历史；**不能复制圣基茨的特殊事件作为其他国家的事实**。
+第011国[格林纳达](countries/011-grenada/README.md)研究补充了第008国创建的[加勒比共同历史](05-加勒比海与大西洋奴隶制.md)；第009国[马尔代夫](countries/009-maldives/README.md)新增了[印度洋季风贸易与环礁社会](06-印度洋季风贸易与环礁社会.md)共享专题。第010国[马耳他](countries/010-malta/README.md)新增了[地中海海权与跨文明接触](07-地中海海权与跨文明接触.md)共享专题；均已登记在 `data/knowledge_reviews.json`。后续巴巴多斯、牙买加、海地等国家应复用相关共同前置解释，同时单独核验各地制度和历史；**不能复制圣基茨的特殊事件作为其他国家的事实**。
 
 ## 十、严格区分两项检查
 

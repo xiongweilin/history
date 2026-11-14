@@ -119,8 +119,8 @@
       "name_en": "Grenada",
       "area_km2": 345,
       "slug": "grenada",
-      "status": "pending",
-      "path": null
+      "status": "published",
+      "path": "countries/011-grenada/README.md"
     },
     {
       "rank": 12,
