@@ -1,0 +1,1966 @@
+{
+  "schema_version": 1,
+  "ranking_basis": "total_surface_area_km2_land_plus_inland_water",
+  "ranking_reference_date": "2026-11-14",
+  "area_source": "https://www.populationpyramids.org/largest-countries",
+  "primary_source": "UN Demographic Yearbook 2024; listed exceptions FAO 2023",
+  "coverage": "193 UN members + Holy See/Vatican City + Palestine",
+  "warnings": [
+    "Values are reported surface area, not uniformly land-only.",
+    "Figures reflect mixed national statistical definitions; disputed borders and overseas territories require context.",
+    "Country 001 represents Vatican City for size; the UN observer entity is the Holy See.",
+    "Treat ranking as project baseline; do not renumber completed chapters due to routine data changes."
+  ],
+  "countries": [
+    {
+      "rank": 1,
+      "code": "001",
+      "name_zh": "梵蒂冈",
+      "name_en": "Vatican City",
+      "area_km2": 0.44,
+      "slug": "vatican",
+      "status": "published",
+      "path": "countries/001-vatican/README.md"
+    },
+    {
+      "rank": 2,
+      "code": "002",
+      "name_zh": "摩纳哥",
+      "name_en": "Monaco",
+      "area_km2": 2,
+      "slug": "monaco",
+      "status": "published",
+      "path": "countries/002-monaco/README.md"
+    },
+    {
+      "rank": 3,
+      "code": "003",
+      "name_zh": "瑙鲁",
+      "name_en": "Nauru",
+      "area_km2": 21,
+      "slug": "nauru",
+      "status": "published",
+      "path": "countries/003-nauru/README.md"
+    },
+    {
+      "rank": 4,
+      "code": "004",
+      "name_zh": "图瓦卢",
+      "name_en": "Tuvalu",
+      "area_km2": 26,
+      "slug": "tuvalu",
+      "status": "published",
+      "path": "countries/004-tuvalu/README.md"
+    },
+    {
+      "rank": 5,
+      "code": "005",
+      "name_zh": "圣马力诺",
+      "name_en": "San Marino",
+      "area_km2": 61,
+      "slug": "san-marino",
+      "status": "published",
+      "path": "countries/005-san-marino/README.md"
+    },
+    {
+      "rank": 6,
+      "code": "006",
+      "name_zh": "列支敦士登",
+      "name_en": "Liechtenstein",
+      "area_km2": 160,
+      "slug": "liechtenstein",
+      "status": "published",
+      "path": "countries/006-liechtenstein/README.md"
+    },
+    {
+      "rank": 7,
+      "code": "007",
+      "name_zh": "马绍尔群岛",
+      "name_en": "Marshall Islands",
+      "area_km2": 181,
+      "slug": "marshall-islands",
+      "status": "published",
+      "path": "countries/007-marshall-islands/README.md"
+    },
+    {
+      "rank": 8,
+      "code": "008",
+      "name_zh": "圣基茨和尼维斯",
+      "name_en": "Saint Kitts and Nevis",
+      "area_km2": 261,
+      "slug": "saint-kitts-and-nevis",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 9,
+      "code": "009",
+      "name_zh": "马尔代夫",
+      "name_en": "Maldives",
+      "area_km2": 300,
+      "slug": "maldives",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 10,
+      "code": "010",
+      "name_zh": "马耳他",
+      "name_en": "Malta",
+      "area_km2": 315,
+      "slug": "malta",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 11,
+      "code": "011",
+      "name_zh": "格林纳达",
+      "name_en": "Grenada",
+      "area_km2": 345,
+      "slug": "grenada",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 12,
+      "code": "012",
+      "name_zh": "圣文森特和格林纳丁斯",
+      "name_en": "Saint Vincent and the Grenadines",
+      "area_km2": 389,
+      "slug": "saint-vincent-and-the-grenadines",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 13,
+      "code": "013",
+      "name_zh": "巴巴多斯",
+      "name_en": "Barbados",
+      "area_km2": 431,
+      "slug": "barbados",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 14,
+      "code": "014",
+      "name_zh": "安提瓜和巴布达",
+      "name_en": "Antigua and Barbuda",
+      "area_km2": 442,
+      "slug": "antigua-and-barbuda",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 15,
+      "code": "015",
+      "name_zh": "塞舌尔",
+      "name_en": "Seychelles",
+      "area_km2": 457,
+      "slug": "seychelles",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 16,
+      "code": "016",
+      "name_zh": "帕劳",
+      "name_en": "Palau",
+      "area_km2": 459,
+      "slug": "palau",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 17,
+      "code": "017",
+      "name_zh": "安道尔",
+      "name_en": "Andorra",
+      "area_km2": 468,
+      "slug": "andorra",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 18,
+      "code": "018",
+      "name_zh": "圣卢西亚",
+      "name_en": "Saint Lucia",
+      "area_km2": 616,
+      "slug": "saint-lucia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 19,
+      "code": "019",
+      "name_zh": "密克罗尼西亚联邦",
+      "name_en": "Micronesia",
+      "area_km2": 702,
+      "slug": "micronesia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 20,
+      "code": "020",
+      "name_zh": "基里巴斯",
+      "name_en": "Kiribati",
+      "area_km2": 726,
+      "slug": "kiribati",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 21,
+      "code": "021",
+      "name_zh": "新加坡",
+      "name_en": "Singapore",
+      "area_km2": 736,
+      "slug": "singapore",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 22,
+      "code": "022",
+      "name_zh": "汤加",
+      "name_en": "Tonga",
+      "area_km2": 747,
+      "slug": "tonga",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 23,
+      "code": "023",
+      "name_zh": "多米尼克",
+      "name_en": "Dominica",
+      "area_km2": 750,
+      "slug": "dominica",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 24,
+      "code": "024",
+      "name_zh": "巴林",
+      "name_en": "Bahrain",
+      "area_km2": 778,
+      "slug": "bahrain",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 25,
+      "code": "025",
+      "name_zh": "圣多美和普林西比",
+      "name_en": "Sao Tome and Principe",
+      "area_km2": 964,
+      "slug": "sao-tome-and-principe",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 26,
+      "code": "026",
+      "name_zh": "科摩罗",
+      "name_en": "Comoros",
+      "area_km2": 1861,
+      "slug": "comoros",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 27,
+      "code": "027",
+      "name_zh": "毛里求斯",
+      "name_en": "Mauritius",
+      "area_km2": 1979,
+      "slug": "mauritius",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 28,
+      "code": "028",
+      "name_zh": "卢森堡",
+      "name_en": "Luxembourg",
+      "area_km2": 2586,
+      "slug": "luxembourg",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 29,
+      "code": "029",
+      "name_zh": "萨摩亚",
+      "name_en": "Samoa",
+      "area_km2": 2842,
+      "slug": "samoa",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 30,
+      "code": "030",
+      "name_zh": "佛得角",
+      "name_en": "Cabo Verde",
+      "area_km2": 4033,
+      "slug": "cabo-verde",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 31,
+      "code": "031",
+      "name_zh": "特立尼达和多巴哥",
+      "name_en": "Trinidad and Tobago",
+      "area_km2": 5127,
+      "slug": "trinidad-and-tobago",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 32,
+      "code": "032",
+      "name_zh": "文莱",
+      "name_en": "Brunei",
+      "area_km2": 5765,
+      "slug": "brunei",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 33,
+      "code": "033",
+      "name_zh": "巴勒斯坦国",
+      "name_en": "Palestine",
+      "area_km2": 6020,
+      "slug": "palestine",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 34,
+      "code": "034",
+      "name_zh": "塞浦路斯",
+      "name_en": "Cyprus",
+      "area_km2": 9251,
+      "slug": "cyprus",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 35,
+      "code": "035",
+      "name_zh": "黎巴嫩",
+      "name_en": "Lebanon",
+      "area_km2": 10452,
+      "slug": "lebanon",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 36,
+      "code": "036",
+      "name_zh": "牙买加",
+      "name_en": "Jamaica",
+      "area_km2": 10991,
+      "slug": "jamaica",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 37,
+      "code": "037",
+      "name_zh": "冈比亚",
+      "name_en": "Gambia",
+      "area_km2": 11295,
+      "slug": "gambia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 38,
+      "code": "038",
+      "name_zh": "卡塔尔",
+      "name_en": "Qatar",
+      "area_km2": 11637,
+      "slug": "qatar",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 39,
+      "code": "039",
+      "name_zh": "瓦努阿图",
+      "name_en": "Vanuatu",
+      "area_km2": 12189,
+      "slug": "vanuatu",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 40,
+      "code": "040",
+      "name_zh": "黑山",
+      "name_en": "Montenegro",
+      "area_km2": 13888,
+      "slug": "montenegro",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 41,
+      "code": "041",
+      "name_zh": "巴哈马",
+      "name_en": "Bahamas",
+      "area_km2": 13940,
+      "slug": "bahamas",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 42,
+      "code": "042",
+      "name_zh": "东帝汶",
+      "name_en": "Timor-Leste",
+      "area_km2": 14954,
+      "slug": "timor-leste",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 43,
+      "code": "043",
+      "name_zh": "斯威士兰",
+      "name_en": "Eswatini",
+      "area_km2": 17363,
+      "slug": "eswatini",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 44,
+      "code": "044",
+      "name_zh": "科威特",
+      "name_en": "Kuwait",
+      "area_km2": 17818,
+      "slug": "kuwait",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 45,
+      "code": "045",
+      "name_zh": "斐济",
+      "name_en": "Fiji",
+      "area_km2": 18272,
+      "slug": "fiji",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 46,
+      "code": "046",
+      "name_zh": "斯洛文尼亚",
+      "name_en": "Slovenia",
+      "area_km2": 20273,
+      "slug": "slovenia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 47,
+      "code": "047",
+      "name_zh": "萨尔瓦多",
+      "name_en": "El Salvador",
+      "area_km2": 21041,
+      "slug": "el-salvador",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 48,
+      "code": "048",
+      "name_zh": "以色列",
+      "name_en": "Israel",
+      "area_km2": 22072,
+      "slug": "israel",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 49,
+      "code": "049",
+      "name_zh": "伯利兹",
+      "name_en": "Belize",
+      "area_km2": 22966,
+      "slug": "belize",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 50,
+      "code": "050",
+      "name_zh": "吉布提",
+      "name_en": "Djibouti",
+      "area_km2": 23200,
+      "slug": "djibouti",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 51,
+      "code": "051",
+      "name_zh": "北马其顿",
+      "name_en": "North Macedonia",
+      "area_km2": 25713,
+      "slug": "north-macedonia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 52,
+      "code": "052",
+      "name_zh": "卢旺达",
+      "name_en": "Rwanda",
+      "area_km2": 26338,
+      "slug": "rwanda",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 53,
+      "code": "053",
+      "name_zh": "海地",
+      "name_en": "Haiti",
+      "area_km2": 27750,
+      "slug": "haiti",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 54,
+      "code": "054",
+      "name_zh": "布隆迪",
+      "name_en": "Burundi",
+      "area_km2": 27834,
+      "slug": "burundi",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 55,
+      "code": "055",
+      "name_zh": "赤道几内亚",
+      "name_en": "Equatorial Guinea",
+      "area_km2": 28051,
+      "slug": "equatorial-guinea",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 56,
+      "code": "056",
+      "name_zh": "阿尔巴尼亚",
+      "name_en": "Albania",
+      "area_km2": 28748,
+      "slug": "albania",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 57,
+      "code": "057",
+      "name_zh": "所罗门群岛",
+      "name_en": "Solomon Islands",
+      "area_km2": 28896,
+      "slug": "solomon-islands",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 58,
+      "code": "058",
+      "name_zh": "亚美尼亚",
+      "name_en": "Armenia",
+      "area_km2": 29743,
+      "slug": "armenia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 59,
+      "code": "059",
+      "name_zh": "莱索托",
+      "name_en": "Lesotho",
+      "area_km2": 30355,
+      "slug": "lesotho",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 60,
+      "code": "060",
+      "name_zh": "比利时",
+      "name_en": "Belgium",
+      "area_km2": 30528,
+      "slug": "belgium",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 61,
+      "code": "061",
+      "name_zh": "摩尔多瓦",
+      "name_en": "Moldova",
+      "area_km2": 33847,
+      "slug": "moldova",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 62,
+      "code": "062",
+      "name_zh": "几内亚比绍",
+      "name_en": "Guinea-Bissau",
+      "area_km2": 36125,
+      "slug": "guinea-bissau",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 63,
+      "code": "063",
+      "name_zh": "不丹",
+      "name_en": "Bhutan",
+      "area_km2": 38394,
+      "slug": "bhutan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 64,
+      "code": "064",
+      "name_zh": "瑞士",
+      "name_en": "Switzerland",
+      "area_km2": 41291,
+      "slug": "switzerland",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 65,
+      "code": "065",
+      "name_zh": "荷兰",
+      "name_en": "Netherlands",
+      "area_km2": 41543,
+      "slug": "netherlands",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 66,
+      "code": "066",
+      "name_zh": "丹麦",
+      "name_en": "Denmark",
+      "area_km2": 42947,
+      "slug": "denmark",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 67,
+      "code": "067",
+      "name_zh": "爱沙尼亚",
+      "name_en": "Estonia",
+      "area_km2": 45399,
+      "slug": "estonia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 68,
+      "code": "068",
+      "name_zh": "多米尼加共和国",
+      "name_en": "Dominican Republic",
+      "area_km2": 48671,
+      "slug": "dominican-republic",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 69,
+      "code": "069",
+      "name_zh": "斯洛伐克",
+      "name_en": "Slovakia",
+      "area_km2": 49035,
+      "slug": "slovakia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 70,
+      "code": "070",
+      "name_zh": "哥斯达黎加",
+      "name_en": "Costa Rica",
+      "area_km2": 51170,
+      "slug": "costa-rica",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 71,
+      "code": "071",
+      "name_zh": "波斯尼亚和黑塞哥维那",
+      "name_en": "Bosnia and Herzegovina",
+      "area_km2": 51209,
+      "slug": "bosnia-and-herzegovina",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 72,
+      "code": "072",
+      "name_zh": "克罗地亚",
+      "name_en": "Croatia",
+      "area_km2": 56594,
+      "slug": "croatia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 73,
+      "code": "073",
+      "name_zh": "多哥",
+      "name_en": "Togo",
+      "area_km2": 56785,
+      "slug": "togo",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 74,
+      "code": "074",
+      "name_zh": "拉脱维亚",
+      "name_en": "Latvia",
+      "area_km2": 64594,
+      "slug": "latvia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 75,
+      "code": "075",
+      "name_zh": "立陶宛",
+      "name_en": "Lithuania",
+      "area_km2": 65286,
+      "slug": "lithuania",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 76,
+      "code": "076",
+      "name_zh": "斯里兰卡",
+      "name_en": "Sri Lanka",
+      "area_km2": 65610,
+      "slug": "sri-lanka",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 77,
+      "code": "077",
+      "name_zh": "格鲁吉亚",
+      "name_en": "Georgia",
+      "area_km2": 69700,
+      "slug": "georgia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 78,
+      "code": "078",
+      "name_zh": "爱尔兰",
+      "name_en": "Ireland",
+      "area_km2": 69825,
+      "slug": "ireland",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 79,
+      "code": "079",
+      "name_zh": "阿拉伯联合酋长国",
+      "name_en": "United Arab Emirates",
+      "area_km2": 71024,
+      "slug": "united-arab-emirates",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 80,
+      "code": "080",
+      "name_zh": "塞拉利昂",
+      "name_en": "Sierra Leone",
+      "area_km2": 72300,
+      "slug": "sierra-leone",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 81,
+      "code": "081",
+      "name_zh": "巴拿马",
+      "name_en": "Panama",
+      "area_km2": 75320,
+      "slug": "panama",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 82,
+      "code": "082",
+      "name_zh": "捷克",
+      "name_en": "Czech Republic",
+      "area_km2": 78871,
+      "slug": "czech-republic",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 83,
+      "code": "083",
+      "name_zh": "奥地利",
+      "name_en": "Austria",
+      "area_km2": 83878,
+      "slug": "austria",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 84,
+      "code": "084",
+      "name_zh": "阿塞拜疆",
+      "name_en": "Azerbaijan",
+      "area_km2": 86600,
+      "slug": "azerbaijan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 85,
+      "code": "085",
+      "name_zh": "塞尔维亚",
+      "name_en": "Serbia",
+      "area_km2": 88444,
+      "slug": "serbia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 86,
+      "code": "086",
+      "name_zh": "约旦",
+      "name_en": "Jordan",
+      "area_km2": 89318,
+      "slug": "jordan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 87,
+      "code": "087",
+      "name_zh": "葡萄牙",
+      "name_en": "Portugal",
+      "area_km2": 92225,
+      "slug": "portugal",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 88,
+      "code": "088",
+      "name_zh": "匈牙利",
+      "name_en": "Hungary",
+      "area_km2": 93025,
+      "slug": "hungary",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 89,
+      "code": "089",
+      "name_zh": "韩国",
+      "name_en": "South Korea",
+      "area_km2": 100460,
+      "slug": "south-korea",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 90,
+      "code": "090",
+      "name_zh": "冰岛",
+      "name_en": "Iceland",
+      "area_km2": 103000,
+      "slug": "iceland",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 91,
+      "code": "091",
+      "name_zh": "危地马拉",
+      "name_en": "Guatemala",
+      "area_km2": 108889,
+      "slug": "guatemala",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 92,
+      "code": "092",
+      "name_zh": "古巴",
+      "name_en": "Cuba",
+      "area_km2": 109884,
+      "slug": "cuba",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 93,
+      "code": "093",
+      "name_zh": "保加利亚",
+      "name_en": "Bulgaria",
+      "area_km2": 110372,
+      "slug": "bulgaria",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 94,
+      "code": "094",
+      "name_zh": "利比里亚",
+      "name_en": "Liberia",
+      "area_km2": 111369,
+      "slug": "liberia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 95,
+      "code": "095",
+      "name_zh": "洪都拉斯",
+      "name_en": "Honduras",
+      "area_km2": 112492,
+      "slug": "honduras",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 96,
+      "code": "096",
+      "name_zh": "贝宁",
+      "name_en": "Benin",
+      "area_km2": 114763,
+      "slug": "benin",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 97,
+      "code": "097",
+      "name_zh": "马拉维",
+      "name_en": "Malawi",
+      "area_km2": 117726,
+      "slug": "malawi",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 98,
+      "code": "098",
+      "name_zh": "朝鲜",
+      "name_en": "North Korea",
+      "area_km2": 120538,
+      "slug": "north-korea",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 99,
+      "code": "099",
+      "name_zh": "厄立特里亚",
+      "name_en": "Eritrea",
+      "area_km2": 121144,
+      "slug": "eritrea",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 100,
+      "code": "100",
+      "name_zh": "尼加拉瓜",
+      "name_en": "Nicaragua",
+      "area_km2": 130374,
+      "slug": "nicaragua",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 101,
+      "code": "101",
+      "name_zh": "希腊",
+      "name_en": "Greece",
+      "area_km2": 131957,
+      "slug": "greece",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 102,
+      "code": "102",
+      "name_zh": "塔吉克斯坦",
+      "name_en": "Tajikistan",
+      "area_km2": 141400,
+      "slug": "tajikistan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 103,
+      "code": "103",
+      "name_zh": "尼泊尔",
+      "name_en": "Nepal",
+      "area_km2": 147181,
+      "slug": "nepal",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 104,
+      "code": "104",
+      "name_zh": "孟加拉国",
+      "name_en": "Bangladesh",
+      "area_km2": 148460,
+      "slug": "bangladesh",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 105,
+      "code": "105",
+      "name_zh": "突尼斯",
+      "name_en": "Tunisia",
+      "area_km2": 163610,
+      "slug": "tunisia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 106,
+      "code": "106",
+      "name_zh": "苏里南",
+      "name_en": "Suriname",
+      "area_km2": 163820,
+      "slug": "suriname",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 107,
+      "code": "107",
+      "name_zh": "乌拉圭",
+      "name_en": "Uruguay",
+      "area_km2": 173626,
+      "slug": "uruguay",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 108,
+      "code": "108",
+      "name_zh": "柬埔寨",
+      "name_en": "Cambodia",
+      "area_km2": 181035,
+      "slug": "cambodia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 109,
+      "code": "109",
+      "name_zh": "叙利亚",
+      "name_en": "Syria",
+      "area_km2": 185180,
+      "slug": "syria",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 110,
+      "code": "110",
+      "name_zh": "塞内加尔",
+      "name_en": "Senegal",
+      "area_km2": 196712,
+      "slug": "senegal",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 111,
+      "code": "111",
+      "name_zh": "吉尔吉斯斯坦",
+      "name_en": "Kyrgyzstan",
+      "area_km2": 199949,
+      "slug": "kyrgyzstan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 112,
+      "code": "112",
+      "name_zh": "白俄罗斯",
+      "name_en": "Belarus",
+      "area_km2": 207600,
+      "slug": "belarus",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 113,
+      "code": "113",
+      "name_zh": "圭亚那",
+      "name_en": "Guyana",
+      "area_km2": 214969,
+      "slug": "guyana",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 114,
+      "code": "114",
+      "name_zh": "老挝",
+      "name_en": "Laos",
+      "area_km2": 236800,
+      "slug": "laos",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 115,
+      "code": "115",
+      "name_zh": "罗马尼亚",
+      "name_en": "Romania",
+      "area_km2": 238398,
+      "slug": "romania",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 116,
+      "code": "116",
+      "name_zh": "加纳",
+      "name_en": "Ghana",
+      "area_km2": 238537,
+      "slug": "ghana",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 117,
+      "code": "117",
+      "name_zh": "乌干达",
+      "name_en": "Uganda",
+      "area_km2": 241550,
+      "slug": "uganda",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 118,
+      "code": "118",
+      "name_zh": "英国",
+      "name_en": "United Kingdom",
+      "area_km2": 244376,
+      "slug": "united-kingdom",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 119,
+      "code": "119",
+      "name_zh": "几内亚",
+      "name_en": "Guinea",
+      "area_km2": 245836,
+      "slug": "guinea",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 120,
+      "code": "120",
+      "name_zh": "厄瓜多尔",
+      "name_en": "Ecuador",
+      "area_km2": 257215,
+      "slug": "ecuador",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 121,
+      "code": "121",
+      "name_zh": "加蓬",
+      "name_en": "Gabon",
+      "area_km2": 267668,
+      "slug": "gabon",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 122,
+      "code": "122",
+      "name_zh": "新西兰",
+      "name_en": "New Zealand",
+      "area_km2": 268164,
+      "slug": "new-zealand",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 123,
+      "code": "123",
+      "name_zh": "布基纳法索",
+      "name_en": "Burkina Faso",
+      "area_km2": 272969,
+      "slug": "burkina-faso",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 124,
+      "code": "124",
+      "name_zh": "菲律宾",
+      "name_en": "Philippines",
+      "area_km2": 300000,
+      "slug": "philippines",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 125,
+      "code": "125",
+      "name_zh": "意大利",
+      "name_en": "Italy",
+      "area_km2": 302068,
+      "slug": "italy",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 126,
+      "code": "126",
+      "name_zh": "阿曼",
+      "name_en": "Oman",
+      "area_km2": 309980,
+      "slug": "oman",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 127,
+      "code": "127",
+      "name_zh": "波兰",
+      "name_en": "Poland",
+      "area_km2": 312679,
+      "slug": "poland",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 128,
+      "code": "128",
+      "name_zh": "科特迪瓦",
+      "name_en": "Côte d'Ivoire",
+      "area_km2": 322462,
+      "slug": "cote-d-ivoire",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 129,
+      "code": "129",
+      "name_zh": "马来西亚",
+      "name_en": "Malaysia",
+      "area_km2": 330621,
+      "slug": "malaysia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 130,
+      "code": "130",
+      "name_zh": "越南",
+      "name_en": "Vietnam",
+      "area_km2": 331345,
+      "slug": "vietnam",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 131,
+      "code": "131",
+      "name_zh": "芬兰",
+      "name_en": "Finland",
+      "area_km2": 338467,
+      "slug": "finland",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 132,
+      "code": "132",
+      "name_zh": "刚果共和国",
+      "name_en": "Congo",
+      "area_km2": 342000,
+      "slug": "congo",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 133,
+      "code": "133",
+      "name_zh": "德国",
+      "name_en": "Germany",
+      "area_km2": 357581,
+      "slug": "germany",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 134,
+      "code": "134",
+      "name_zh": "日本",
+      "name_en": "Japan",
+      "area_km2": 377930,
+      "slug": "japan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 135,
+      "code": "135",
+      "name_zh": "挪威",
+      "name_en": "Norway",
+      "area_km2": 386194,
+      "slug": "norway",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 136,
+      "code": "136",
+      "name_zh": "津巴布韦",
+      "name_en": "Zimbabwe",
+      "area_km2": 390757,
+      "slug": "zimbabwe",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 137,
+      "code": "137",
+      "name_zh": "巴拉圭",
+      "name_en": "Paraguay",
+      "area_km2": 406752,
+      "slug": "paraguay",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 138,
+      "code": "138",
+      "name_zh": "伊拉克",
+      "name_en": "Iraq",
+      "area_km2": 435052,
+      "slug": "iraq",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 139,
+      "code": "139",
+      "name_zh": "瑞典",
+      "name_en": "Sweden",
+      "area_km2": 438574,
+      "slug": "sweden",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 140,
+      "code": "140",
+      "name_zh": "摩洛哥",
+      "name_en": "Morocco",
+      "area_km2": 446550,
+      "slug": "morocco",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 141,
+      "code": "141",
+      "name_zh": "乌兹别克斯坦",
+      "name_en": "Uzbekistan",
+      "area_km2": 448969,
+      "slug": "uzbekistan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 142,
+      "code": "142",
+      "name_zh": "巴布亚新几内亚",
+      "name_en": "Papua New Guinea",
+      "area_km2": 462840,
+      "slug": "papua-new-guinea",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 143,
+      "code": "143",
+      "name_zh": "喀麦隆",
+      "name_en": "Cameroon",
+      "area_km2": 475650,
+      "slug": "cameroon",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 144,
+      "code": "144",
+      "name_zh": "土库曼斯坦",
+      "name_en": "Turkmenistan",
+      "area_km2": 488100,
+      "slug": "turkmenistan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 145,
+      "code": "145",
+      "name_zh": "西班牙",
+      "name_en": "Spain",
+      "area_km2": 506009,
+      "slug": "spain",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 146,
+      "code": "146",
+      "name_zh": "泰国",
+      "name_en": "Thailand",
+      "area_km2": 513140,
+      "slug": "thailand",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 147,
+      "code": "147",
+      "name_zh": "也门",
+      "name_en": "Yemen",
+      "area_km2": 527968,
+      "slug": "yemen",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 148,
+      "code": "148",
+      "name_zh": "法国",
+      "name_en": "France",
+      "area_km2": 551500,
+      "slug": "france",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 149,
+      "code": "149",
+      "name_zh": "博茨瓦纳",
+      "name_en": "Botswana",
+      "area_km2": 581730,
+      "slug": "botswana",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 150,
+      "code": "150",
+      "name_zh": "马达加斯加",
+      "name_en": "Madagascar",
+      "area_km2": 587041,
+      "slug": "madagascar",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 151,
+      "code": "151",
+      "name_zh": "肯尼亚",
+      "name_en": "Kenya",
+      "area_km2": 591958,
+      "slug": "kenya",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 152,
+      "code": "152",
+      "name_zh": "乌克兰",
+      "name_en": "Ukraine",
+      "area_km2": 603500,
+      "slug": "ukraine",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 153,
+      "code": "153",
+      "name_zh": "中非共和国",
+      "name_en": "Central African Republic",
+      "area_km2": 622984,
+      "slug": "central-african-republic",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 154,
+      "code": "154",
+      "name_zh": "索马里",
+      "name_en": "Somalia",
+      "area_km2": 637657,
+      "slug": "somalia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 155,
+      "code": "155",
+      "name_zh": "阿富汗",
+      "name_en": "Afghanistan",
+      "area_km2": 652864,
+      "slug": "afghanistan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 156,
+      "code": "156",
+      "name_zh": "南苏丹",
+      "name_en": "South Sudan",
+      "area_km2": 658841,
+      "slug": "south-sudan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 157,
+      "code": "157",
+      "name_zh": "缅甸",
+      "name_en": "Myanmar",
+      "area_km2": 676577,
+      "slug": "myanmar",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 158,
+      "code": "158",
+      "name_zh": "赞比亚",
+      "name_en": "Zambia",
+      "area_km2": 752612,
+      "slug": "zambia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 159,
+      "code": "159",
+      "name_zh": "智利",
+      "name_en": "Chile",
+      "area_km2": 756102,
+      "slug": "chile",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 160,
+      "code": "160",
+      "name_zh": "土耳其",
+      "name_en": "Turkey",
+      "area_km2": 783562,
+      "slug": "turkey",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 161,
+      "code": "161",
+      "name_zh": "巴基斯坦",
+      "name_en": "Pakistan",
+      "area_km2": 796096,
+      "slug": "pakistan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 162,
+      "code": "162",
+      "name_zh": "莫桑比克",
+      "name_en": "Mozambique",
+      "area_km2": 799380,
+      "slug": "mozambique",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 163,
+      "code": "163",
+      "name_zh": "纳米比亚",
+      "name_en": "Namibia",
+      "area_km2": 825229,
+      "slug": "namibia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 164,
+      "code": "164",
+      "name_zh": "尼日利亚",
+      "name_en": "Nigeria",
+      "area_km2": 923768,
+      "slug": "nigeria",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 165,
+      "code": "165",
+      "name_zh": "委内瑞拉",
+      "name_en": "Venezuela",
+      "area_km2": 929690,
+      "slug": "venezuela",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 166,
+      "code": "166",
+      "name_zh": "坦桑尼亚",
+      "name_en": "Tanzania",
+      "area_km2": 947303,
+      "slug": "tanzania",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 167,
+      "code": "167",
+      "name_zh": "埃及",
+      "name_en": "Egypt",
+      "area_km2": 1002000,
+      "slug": "egypt",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 168,
+      "code": "168",
+      "name_zh": "毛里塔尼亚",
+      "name_en": "Mauritania",
+      "area_km2": 1030700,
+      "slug": "mauritania",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 169,
+      "code": "169",
+      "name_zh": "玻利维亚",
+      "name_en": "Bolivia",
+      "area_km2": 1098581,
+      "slug": "bolivia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 170,
+      "code": "170",
+      "name_zh": "埃塞俄比亚",
+      "name_en": "Ethiopia",
+      "area_km2": 1104300,
+      "slug": "ethiopia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 171,
+      "code": "171",
+      "name_zh": "哥伦比亚",
+      "name_en": "Colombia",
+      "area_km2": 1141748,
+      "slug": "colombia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 172,
+      "code": "172",
+      "name_zh": "南非",
+      "name_en": "South Africa",
+      "area_km2": 1221037,
+      "slug": "south-africa",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 173,
+      "code": "173",
+      "name_zh": "马里",
+      "name_en": "Mali",
+      "area_km2": 1240192,
+      "slug": "mali",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 174,
+      "code": "174",
+      "name_zh": "安哥拉",
+      "name_en": "Angola",
+      "area_km2": 1246700,
+      "slug": "angola",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 175,
+      "code": "175",
+      "name_zh": "尼日尔",
+      "name_en": "Niger",
+      "area_km2": 1267000,
+      "slug": "niger",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 176,
+      "code": "176",
+      "name_zh": "乍得",
+      "name_en": "Chad",
+      "area_km2": 1284000,
+      "slug": "chad",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 177,
+      "code": "177",
+      "name_zh": "秘鲁",
+      "name_en": "Peru",
+      "area_km2": 1285216,
+      "slug": "peru",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 178,
+      "code": "178",
+      "name_zh": "蒙古国",
+      "name_en": "Mongolia",
+      "area_km2": 1564116,
+      "slug": "mongolia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 179,
+      "code": "179",
+      "name_zh": "伊朗",
+      "name_en": "Iran",
+      "area_km2": 1630848,
+      "slug": "iran",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 180,
+      "code": "180",
+      "name_zh": "利比亚",
+      "name_en": "Libya",
+      "area_km2": 1676198,
+      "slug": "libya",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 181,
+      "code": "181",
+      "name_zh": "苏丹",
+      "name_en": "Sudan",
+      "area_km2": 1878000,
+      "slug": "sudan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 182,
+      "code": "182",
+      "name_zh": "印度尼西亚",
+      "name_en": "Indonesia",
+      "area_km2": 1892410,
+      "slug": "indonesia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 183,
+      "code": "183",
+      "name_zh": "墨西哥",
+      "name_en": "Mexico",
+      "area_km2": 1964375,
+      "slug": "mexico",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 184,
+      "code": "184",
+      "name_zh": "沙特阿拉伯",
+      "name_en": "Saudi Arabia",
+      "area_km2": 2206714,
+      "slug": "saudi-arabia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 185,
+      "code": "185",
+      "name_zh": "刚果民主共和国",
+      "name_en": "Democratic Republic of the Congo",
+      "area_km2": 2345410,
+      "slug": "democratic-republic-of-the-congo",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 186,
+      "code": "186",
+      "name_zh": "阿尔及利亚",
+      "name_en": "Algeria",
+      "area_km2": 2381741,
+      "slug": "algeria",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 187,
+      "code": "187",
+      "name_zh": "哈萨克斯坦",
+      "name_en": "Kazakhstan",
+      "area_km2": 2724910,
+      "slug": "kazakhstan",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 188,
+      "code": "188",
+      "name_zh": "阿根廷",
+      "name_en": "Argentina",
+      "area_km2": 2780400,
+      "slug": "argentina",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 189,
+      "code": "189",
+      "name_zh": "印度",
+      "name_en": "India",
+      "area_km2": 3287263,
+      "slug": "india",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 190,
+      "code": "190",
+      "name_zh": "澳大利亚",
+      "name_en": "Australia",
+      "area_km2": 7692060,
+      "slug": "australia",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 191,
+      "code": "191",
+      "name_zh": "巴西",
+      "name_en": "Brazil",
+      "area_km2": 8510417,
+      "slug": "brazil",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 192,
+      "code": "192",
+      "name_zh": "中国",
+      "name_en": "China",
+      "area_km2": 9600000,
+      "slug": "china",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 193,
+      "code": "193",
+      "name_zh": "美国",
+      "name_en": "United States",
+      "area_km2": 9833517,
+      "slug": "united-states",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 194,
+      "code": "194",
+      "name_zh": "加拿大",
+      "name_en": "Canada",
+      "area_km2": 9984670,
+      "slug": "canada",
+      "status": "pending",
+      "path": null
+    },
+    {
+      "rank": 195,
+      "code": "195",
+      "name_zh": "俄罗斯",
+      "name_en": "Russia",
+      "area_km2": 17098246,
+      "slug": "russia",
+      "status": "pending",
+      "path": null
+    }
+  ]
+}
