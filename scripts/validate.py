@@ -91,6 +91,60 @@ def main() -> int:
         elif status == "pending":
             check(entry.get("path") is None, f"country {i}: pending must have null path")
     n = len(published)
+
+    # Cross-country knowledge reviews are a publication dependency, not a
+    # historical-fact verification engine. Legacy chapters 001-007 are exempt
+    # from the new editorial decision requirement but not from being recorded.
+    knowledge = load_json("data/knowledge_reviews.json")
+    reviews = knowledge.get("reviews", [])
+    check(isinstance(reviews, list), "knowledge_reviews.reviews must be an array")
+    if not isinstance(reviews, list):
+        reviews = []
+    check(len(reviews) == n,
+          f"Expected {n} knowledge-review records for published countries, got {len(reviews)}")
+    for i, review in enumerate(reviews):
+        if not isinstance(review, dict):
+            errors.append(f"knowledge review {i + 1}: expected object")
+            continue
+        check(review.get("rank") == i + 1,
+              f"knowledge review {i + 1}: rank mismatch")
+        if i < len(published):
+            check(review.get("country") == published[i].get("name_zh"),
+                  f"knowledge review {i + 1}: country name mismatch")
+        decision = review.get("decision")
+        check(decision in ("legacy_not_individually_reviewed", "added_or_updated", "reviewed_no_change"),
+              f"knowledge review {i + 1}: invalid decision {decision!r}")
+        if i >= 8:
+            check(decision in ("added_or_updated", "reviewed_no_change"),
+                  f"knowledge review {i + 1}: rank >=009 requires an actual review")
+        if decision == "legacy_not_individually_reviewed":
+            check(i <= 6, f"knowledge review {i + 1}: only 001-007 can be legacy")
+        reason = review.get("reason")
+        check(isinstance(reason, str) and len(reason.strip()) >= 20,
+              f"knowledge review {i + 1}: missing substantive reason")
+        files = review.get("files")
+        check(isinstance(files, list), f"knowledge review {i + 1}: files must be list")
+        if not isinstance(files, list):
+            files = []
+        if decision == "added_or_updated":
+            check(bool(files), f"knowledge review {i + 1}: changed shared files must be listed")
+        for shared in files:
+            check(isinstance(shared, str) and bool(re.fullmatch(r"[^/\\\\]+\\.md", shared)),
+                  f"knowledge review {i + 1}: shared file must be a root Markdown file: {shared}")
+            if isinstance(shared, str):
+                check((ROOT / shared).is_file(),
+                      f"knowledge review {i + 1}: missing shared file: {shared}")
+
+    common = progress.get("source_of_truth", {}).get("common_knowledge", [])
+    check(isinstance(common, list), "progress.source_of_truth.common_knowledge must be list")
+    if isinstance(common, list):
+        check(len(common) == len(set(common)), "duplicate shared knowledge paths")
+        for file in common:
+            check(isinstance(file, str) and (ROOT / file).is_file(),
+                  f"progress lists missing common knowledge file: {file}")
+    check(progress.get("source_of_truth", {}).get("knowledge_reviews") == "data/knowledge_reviews.json",
+          "progress.source_of_truth.knowledge_reviews missing or wrong")
+
     check([x.get("rank") for x in published] == list(range(1, n + 1)),
           "published entries must form a contiguous prefix 1..N")
     check(progress.get("total") == 195, "progress.total != 195")
@@ -147,12 +201,16 @@ def main() -> int:
     for path in ("README.md", "AGENTS.md", "WORKFLOW.md", "QUALITY_STANDARD.md",
                  "00-阅读说明与目录.md", "01-人类共同起点.md",
                  "02-六大早期文明区域.md", "03-基督教与罗马帝国.md",
-                 "04-跨国共同历史.md"):
+                 "04-跨国共同历史.md", "05-加勒比海与大西洋奴隶制.md",
+                 "data/knowledge_reviews.json"):
         check((ROOT / path).is_file(), f"missing required project file: {path}")
 
     # Validate local Markdown references for these docs; only links we can parse
     # without needing a full Markdown renderer are checked.
-    for path in ("README.md", "00-阅读说明与目录.md", "COUNTRY_INDEX.md", "AGENTS.md", "WORKFLOW.md"):
+    for path in ("README.md", "00-阅读说明与目录.md", "COUNTRY_INDEX.md", "AGENTS.md",
+                 "WORKFLOW.md", "QUALITY_STANDARD.md", "04-跨国共同历史.md",
+                 "05-加勒比海与大西洋奴隶制.md",
+                 *(x.get("path") for x in published if x.get("path"))):
         f = ROOT / path
         if f.is_file():
             check_local_links(f)
@@ -163,7 +221,8 @@ def main() -> int:
             print(" - " + err)
         return 1
     print(f"PASS: 195 countries in ascending surface area; {n} published; "
-          f"next={expected_next}; chapters, index, progress and local links agree.")
+          f"{len(reviews)} knowledge reviews; next={expected_next}; "
+          f"chapters, index, progress, shared files and local links agree.")
     return 0
 
 
