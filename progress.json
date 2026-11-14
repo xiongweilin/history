@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "project": "世界195国文化文明史",
+  "repository": "https://github.com/xiongweilin/history",
+  "updated_at": "2026-11-14",
+  "total": 195,
+  "completed_count": 7,
+  "last_completed_rank": 7,
+  "next_rank": 8,
+  "mode": "one_country_per_request",
+  "source_of_truth": {
+    "sequence": "data/countries.json",
+    "state": "progress.json",
+    "directions": "AGENTS.md",
+    "index": "COUNTRY_INDEX.md",
+    "common_knowledge": [
+      "00-阅读说明与目录.md",
+      "01-人类共同起点.md",
+      "02-六大早期文明区域.md",
+      "03-基督教与罗马帝国.md",
+      "04-跨国共同历史.md"
+    ]
+  },
+  "last_completed": {
+    "rank": 7,
+    "name_zh": "马绍尔群岛",
+    "name_en": "Marshall Islands",
+    "path": "countries/007-marshall-islands/README.md"
+  },
+  "next": {
+    "rank": 8,
+    "name_zh": "圣基茨和尼维斯",
+    "name_en": "Saint Kitts and Nevis",
+    "slug": "saint-kitts-and-nevis",
+    "status": "pending",
+    "path": null
+  },
+  "completed": [
+    {
+      "rank": 1,
+      "path": "countries/001-vatican/README.md",
+      "provenance": "reconstructed"
+    },
+    {
+      "rank": 2,
+      "path": "countries/002-monaco/README.md",
+      "provenance": "editorial_reconstruction"
+    },
+    {
+      "rank": 3,
+      "path": "countries/003-nauru/README.md",
+      "provenance": "editorial_reconstruction"
+    },
+    {
+      "rank": 4,
+      "path": "countries/004-tuvalu/README.md",
+      "provenance": "editorial_reconstruction"
+    },
+    {
+      "rank": 5,
+      "path": "countries/005-san-marino/README.md",
+      "provenance": "editorial_reconstruction"
+    },
+    {
+      "rank": 6,
+      "path": "countries/006-liechtenstein/README.md",
+      "provenance": "editorial_reconstruction"
+    },
+    {
+      "rank": 7,
+      "path": "countries/007-marshall-islands/README.md",
+      "provenance": "editorial_reconstruction"
+    }
+  ],
+  "notes": [
+    "第008国尚未开始；本次仓库工作只建立跨会话续写基础设施，不产生第008国内容。",
+    "截至本次整理，已发布文档为长篇对话的结构化整理稿，非原对话逐字导出。",
+    "完成状态以已提交并重新校验的国家正文为准；不能仅因聊天回答已发送而将文件标为完成。",
+    "新会话必须获得仓库访问入口且有合适的外部工具权限；仓库文件不能自动触发聊天或保证GitHub写入权限。"
+  ]
+}
