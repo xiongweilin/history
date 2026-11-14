@@ -79,13 +79,13 @@
 - 使用GitHub文件SHA或提交基线防止覆盖其他人的改动；遇到冲突重新读取文件，禁止强推。
 - 不采用没有核验的盲目并行写入。
 
-## 七、示例（不代表第008国已经开始）
+## 七、示例（不代表第009国已经开始）
 
-当未来要发布第008国时，预计：
+当未来要发布第009国时，预计：
 
-`countries/008-saint-kitts-and-nevis/README.md`
+`countries/009-maldives/README.md`
 
-在文件真正提交成功前，`data/countries.json` 中第008国保持 pending，`path` 保持 null，`progress.json.next_rank` 仍为8；不得通过先创建空标题或占位文件来“打卡完成”。
+在文件真正提交成功前，`data/countries.json` 中第009国保持 pending，`path` 保持 null，`progress.json.next_rank` 仍为9；不得通过先创建空标题或占位文件来“打卡完成”。
 
 ## 八、发布后必须能回答的问题
 
