@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "description": "每国归档后的跨国共同知识复盘；它记录是否需要沉淀共享知识，不声称自动证明历史事实正确。",
+  "policy_effective_from_rank": 9,
+  "updated_at": "2026-11-14",
+  "allowed_decisions": [
+    "legacy_not_individually_reviewed",
+    "added_or_updated",
+    "reviewed_no_change"
+  ],
+  "reviews": [
+    {
+      "rank": 1,
+      "country": "梵蒂冈",
+      "decision": "legacy_not_individually_reviewed",
+      "files": [],
+      "reason": "该国归档于共同知识复盘记录制度建立之前；现有根目录已有相关共享内容，但尚未按新版标准逐篇完成可追溯复盘。"
+    },
+    {
+      "rank": 2,
+      "country": "摩纳哥",
+      "decision": "legacy_not_individually_reviewed",
+      "files": [],
+      "reason": "该国归档于共同知识复盘记录制度建立之前；现有根目录已有相关共享内容，但尚未按新版标准逐篇完成可追溯复盘。"
+    },
+    {
+      "rank": 3,
+      "country": "瑙鲁",
+      "decision": "legacy_not_individually_reviewed",
+      "files": [],
+      "reason": "该国归档于共同知识复盘记录制度建立之前；现有根目录已有相关共享内容，但尚未按新版标准逐篇完成可追溯复盘。"
+    },
+    {
+      "rank": 4,
+      "country": "图瓦卢",
+      "decision": "legacy_not_individually_reviewed",
+      "files": [],
+      "reason": "该国归档于共同知识复盘记录制度建立之前；现有根目录已有相关共享内容，但尚未按新版标准逐篇完成可追溯复盘。"
+    },
+    {
+      "rank": 5,
+      "country": "圣马力诺",
+      "decision": "legacy_not_individually_reviewed",
+      "files": [],
+      "reason": "该国归档于共同知识复盘记录制度建立之前；现有根目录已有相关共享内容，但尚未按新版标准逐篇完成可追溯复盘。"
+    },
+    {
+      "rank": 6,
+      "country": "列支敦士登",
+      "decision": "legacy_not_individually_reviewed",
+      "files": [],
+      "reason": "该国归档于共同知识复盘记录制度建立之前；现有根目录已有相关共享内容，但尚未按新版标准逐篇完成可追溯复盘。"
+    },
+    {
+      "rank": 7,
+      "country": "马绍尔群岛",
+      "decision": "legacy_not_individually_reviewed",
+      "files": [],
+      "reason": "该国归档于共同知识复盘记录制度建立之前；现有根目录已有相关共享内容，但尚未按新版标准逐篇完成可追溯复盘。"
+    },
+    {
+      "rank": 8,
+      "country": "圣基茨和尼维斯",
+      "decision": "added_or_updated",
+      "files": [
+        "05-加勒比海与大西洋奴隶制.md"
+      ],
+      "reason": "第008国首次系统引入加勒比原住民历史、英法殖民与种植园经济、跨大西洋奴隶贸易、英国1807/1834/1838年制度变革；已提炼跨国适用的机制，并用博物馆、英国议会和档案及学术研究复核。"
+    }
+  ]
+}
