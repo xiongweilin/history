@@ -109,8 +109,8 @@
       "name_en": "Malta",
       "area_km2": 315,
       "slug": "malta",
-      "status": "pending",
-      "path": null
+      "status": "published",
+      "path": "countries/010-malta/README.md"
     },
     {
       "rank": 11,
